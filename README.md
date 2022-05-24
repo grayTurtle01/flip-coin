@@ -8,5 +8,7 @@ This is only the frontEnd implementation.
 ## ScreenShots 📸
 ![ScreeShot](images/screenshot.png)
 
+![](images/file.gif)
+
 ## Demos 🖥️
 Checkout the live demo here ➡️ [Live-Demo](https://grayturtle01.github.io/flip-coin/)
