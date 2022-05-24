@@ -4,5 +4,6 @@ body{
 }
 
 #coin-value{
-    font-size: 150px;
+    margin: 0px;
+    font-size: 250px;
 }
