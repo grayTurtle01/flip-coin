@@ -1,5 +1,5 @@
 document.querySelector("button").onclick = function(){
-    url = 'http://http-server-node.herokuapp.com/api'
+    url = 'https://http-server-node.herokuapp.com/api'
 
     fetch(url)
     .then( res => res.json() )
