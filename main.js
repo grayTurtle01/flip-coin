@@ -12,9 +12,9 @@ document.querySelector("button").onclick = function(){
         img = document.querySelector("img")
 
         if( data.flag )
-            img.src = "images/head.jpeg"
+            img.src = "images/quarter-head.jpg"
         else
-            img.src = "images/tail.jpeg"
+            img.src = "images/quarter-tail.jpg"
             
         
     })
