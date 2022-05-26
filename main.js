@@ -1,3 +1,5 @@
+coin = 'quarter'
+
 document.querySelector("button").onclick = function(){
     url = 'https://http-server-node.herokuapp.com/api'
 
@@ -12,11 +14,18 @@ document.querySelector("button").onclick = function(){
         img = document.querySelector("img")
 
         if( data.flag )
-            img.src = "images/quarter-head.jpg"
+            img.src = `images/${coin}-head.jpg`
         else
-            img.src = "images/quarter-tail.jpg"
+            img.src = `images/${coin}-tail.jpg`
             
         
     })
 
+
 }
+
+document.querySelector("select").onchange = function(){
+    coin = this.value
+    
+}
+
