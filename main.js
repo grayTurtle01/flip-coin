@@ -1,7 +1,7 @@
 coin = 'quarter'
 
 document.querySelector("button").onclick = function(){
-    url = 'https://http-server-node.herokuapp.com/api'
+    url = 'https://express-random-api.herokuapp.com/api/dice'
     //~ url = 'http://localhost:8000/api/coin'
 
     fetch(url)
