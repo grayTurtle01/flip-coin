@@ -1,8 +1,8 @@
 coin = 'quarter'
 
 document.querySelector("button").onclick = function(){
-    //~ url = 'https://http-server-node.herokuapp.com/api'
-    url = 'http://localhost:8000/api/coin'
+    url = 'https://http-server-node.herokuapp.com/api'
+    //~ url = 'http://localhost:8000/api/coin'
 
     fetch(url)
     .then( res => res.json() )
