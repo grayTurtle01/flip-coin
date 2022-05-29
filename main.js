@@ -22,8 +22,8 @@ document.querySelector("button").onclick = function(){
 
 
         //update counter values
-        document.querySelector("#heads").innerText = data.counter.heads    
-        document.querySelector("#tails").innerText = data.counter.tails    
+        document.querySelector("#heads").innerText = 'Heads: ' + data.counter.heads    
+        document.querySelector("#tails").innerText = 'Tails: ' + data.counter.tails    
         
     })
     .catch(err => console.log(err))

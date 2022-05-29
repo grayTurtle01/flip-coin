@@ -12,8 +12,11 @@ img{
     width: 300px;
 }
 
-footer{
-    margin: 0px;
+counter{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+span{
+    margin: 120px;
 }
