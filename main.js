@@ -12,13 +12,18 @@ document.querySelector("button").onclick = function(){
         document.querySelector("#coin-value").innerText = data.flag
 
 
+        // change image
         img = document.querySelector("img")
 
         if( data.flag )
             img.src = `images/${coin}-head.jpg`
         else
             img.src = `images/${coin}-tail.jpg`
-            
+
+
+        //update counter values
+        document.querySelector("#heads").innerText = data.counter.heads    
+        document.querySelector("#tails").innerText = data.counter.tails    
         
     })
     .catch(err => console.log(err))
