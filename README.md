@@ -6,7 +6,10 @@ The value of the coin comes from a node server api.
 This is only the frontEnd implementation.
 
 ## ScreenShots 📸
-![ScreeShot](images/screenshot.png)
+<!-- ![ScreeShot](images/screenshot.png) -->
+
+![coin-ss](https://user-images.githubusercontent.com/42740473/172065333-66ee068d-4774-4cde-9c44-9ad9748e9046.png)
+
 
 <details>
   <summary> Show/Hide Animated Gif </summary>
